@@ -1,0 +1,21 @@
+.box1{
+  background-color: red;
+}
+.box2{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.views{
+  background: green;
+  font-size: 100px;
+
+}
+.box3{
+  width: 200px;
+  height: 200px;
+  background: blue;
+}
+.box2-hover{
+  background: yellow;
+}

@@ -1,0 +1,22 @@
+<input></input>
+
+<!-- 1.value:默认值 -->
+<input value="haha"/>
+
+<!-- 2.type:决定键盘的类型 -->
+<!-- 
+  text:文本输入
+  number:数字
+  idcard:身份证
+  digit:带小数的数字键盘
+ -->
+<input type="text"></input>
+
+<!-- 3.password -->
+<input password />
+
+<!-- 4.placeholder：占位文本 -->
+<input placeholder="你的名字" />
+
+<!-- 5.input的绑定事件 -->
+<input bindblur="bindBlur" bindfocus="bindFocus"bindinput="bindInput"/>

@@ -1,0 +1,11 @@
+<!-- view组件：容器标签，独占一行 -->
+<view class="box1">hahah</view>
+<view>heheh</view>
+
+<!-- 1.hover-class:按下去的样式类 -->
+<!-- <view class="box2" hover-class="views" hover-stay-time="{{1000}}">box2</view> -->
+
+<!-- hover-stop-propagation:阻止本节点出现点击态 -->
+<view class="box3" hover-class="box2-hover">
+  <view class="box2" hover-class="views" hover-stay-time="{{100}}" hover-stop-propagation>box3</view>
+</view>

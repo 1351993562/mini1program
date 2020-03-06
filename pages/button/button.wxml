@@ -1,0 +1,20 @@
+<button>按钮</button>
+
+<!-- 1.size属性 -->
+<!-- mini:小尺寸、default:默认大小 -->
+<button size="mini">size</button>
+<button size="mini">size</button>
+
+<!-- 2.type属性 -->
+<button size="mini" type="primary">size</button>
+<button size="mini" type="default">size</button>
+<button size="mini" type="warn">size</button>
+
+<!-- 3.plain:镂空效果 -->
+<button size="mini" plain>plain</button>
+
+<button size="mini" disabled>plain</button>
+
+<button size="mini" loading>plain</button>
+
+<button hover-class="pressed">变色</button>

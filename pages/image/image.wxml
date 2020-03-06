@@ -1,0 +1,21 @@
+<!-- 
+  重点：
+  1.既可以写成单标签（必须结束位置加上斜杆），也可以写成双标签
+  2.默认大小：默认宽320，高度240px
+  3.image也是行内块元素
+ -->
+<!-- 1.src:本地或者远程 -->
+<image show-menu-by-longpress src="../../images/3.jpg"></image><!--相对路径-->
+<image mode="aspectFit" src="/images/3.jpg"></image><!--绝对路径-->
+
+<!-- 补充：选中相册中的图片 -->
+<!-- <image src="{{imagepath}}"></image>
+<button bindtap="headleChoose">选择照片</button> -->
+
+<!-- 2.bindload：监听图片加载完成 lazy-load：懒加载（三个屏幕）-->
+<image wx:for="{{10}}" src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg" bindload='handleImageLoad' lazy-load></image>
+
+<!-- mode属性：超级重要 -->
+<!-- 
+
+ -->

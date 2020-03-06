@@ -1,0 +1,6 @@
+<!-- scroll-view用来实现局部滚动 -->
+
+<!-- 水平滚动 -->
+<scroll-view scroll-x>
+  <view wx:for="{{10}}">{{item}}</view>
+</scroll-view>

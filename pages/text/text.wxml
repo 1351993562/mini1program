@@ -1,0 +1,21 @@
+<!-- text组件 -->
+<!--pages/text/text.wxml-->
+<text>大傻子\n</text>
+<text>渣渣</text>
+
+<!--1. 默认情况下text下的文本不可以选中 -->
+<!-- selectable决定文本是否可以被选中 -->
+<text selectable="{{true}}">大傻猪</text>
+<text selectable>大傻猪</text><!--同上-->
+
+<!-- 2.space：决定空格大小 -->
+<!-- nbsp:默认大小  -->
+<!-- ensp:半个空格大小 -->
+<!-- emsp:一个空格大小 -->
+<text>hello\n</text>
+<text space="nbsp">he llo\n</text>
+<text space="emsp">he llo\n</text>
+<text space="ensp">he llo\n</text>
+
+<!-- 3.decode:是否解码 -->
+<text decode>5 &gt; 3</text>
